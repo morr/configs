@@ -1,0 +1,2 @@
+FLAGS="-march=core2 -O2 -fomit-frame-pointer -pipe"
+rvm_configure_env=(CFLAGS="-march=core2 -O2 -fomit-frame-pointer -pipe")
