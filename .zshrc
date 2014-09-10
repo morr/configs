@@ -90,6 +90,11 @@ myfind() {
 alias f=myfind
 #alias fvim="mvim \`myfind $1\`"
 
+grep_find() {
+  fgrep -ir "$1" .
+}
+alias gr=grep_find
+
 git_delete_branch() {
   git branch -d $1 && git push origin :$1
 }
